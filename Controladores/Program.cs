@@ -6,6 +6,12 @@ namespace edu.PR.Ejercicio1GLOBAL._0104.Controladores
 {
     internal class Program
     {
+        static public List<BibliotecaDto>  listaBiblioteca = new List<BibliotecaDto> ();
+        static public List<LibroDto>  listaLibros = new List<LibroDto> ();
+        static public List<ClienteDto>  listaClientes = new List<ClienteDto> ();
+        static public List<PrestamoDto>  listaPrestamo = new List<PrestamoDto> ();
+        static public long idBibliotecaActual = 0;
+
         static void Main(string[] args)
         {
             MenuInterfaz mi = new MenuImplementacion();

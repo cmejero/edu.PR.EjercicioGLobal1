@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace edu.PR.Ejercicio1GLOBAL._0104.Dtos
 {
-    internal class BibliotecaDto
+    public class BibliotecaDto
     {
 
         long idBiblioteca;
